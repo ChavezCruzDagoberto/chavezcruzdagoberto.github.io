@@ -1,0 +1,79 @@
+
+html{
+    background-color:lightslategrey;
+}
+#enlaces{
+   width: 300px;
+background-color: khaki;
+border-spacing: 100px;
+text-align: center;
+float: left;
+position: fixed;
+
+}
+#enlace{
+margin-left: 10px;
+margin-right: 10px;
+line-height: 30px;
+
+}
+
+#contenedor{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+width: 1050px;
+float: right;
+
+}
+body{
+    overflow: hidden;
+}
+
+#con{
+    font-size:30px ;
+    padding: 10px ;
+    
+
+      
+}
+h1{
+   widows: 1050px;
+   float: right;
+    }
+body{
+ 
+    margin: auto;
+   
+    overflow: scroll;
+   
+}
+#imagen{
+    float: right;
+width: 500px;
+
+border: 2px solid  khaki;
+
+}
+#descripcion{
+color: brown;
+
+}
+#cursiva{
+    font-style: oblique;
+}
+p{
+position: relative;
+font-size: 18px;
+clear: both;
+}
+#izq{
+    width: auto;
+    margin-top: 0px;
+    float:left;
+    
+}
+#der{float: right;}
+#pie-de-pagina{
+background-color:khaki;
+
+}
+

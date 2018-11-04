@@ -1,9 +1,124 @@
 <!DOCTYPE html>
-   <head>
-     <meta charset="UTF-8">
-     <title>Inicio</title>
-   </head>
-   <body>
-     <h1>Bienvenido</h1>
-   </body>
- </html>
+<html>
+  <head>
+      <link rel="stylesheet" href="/css/normalize.css    ">
+      <link rel="stylesheet" href="/css/main.css">
+    <title>Hola</title>
+    <meta charset="utf-8">
+    <style></style>
+  </head>
+  <body>
+   <div id="tema">
+      <h1>
+          "Edgar Allan Poe"
+        </h1>
+   </div>
+   <div id="enlaces">
+      <section>
+        <nav>
+        <p>  <a id="enlace" href="index.html">Inicio</a></p>
+          <p><a id="enlace" href="cuento1.html">El misterio de Marie Rogêt</a></p>
+         <p> <a id="enlace" href="cuento2.html">La carta robada</a></p>
+         <p> <a id="enlace" href="cuento3.html">La incomparable aventura de Hans Pfaall</a></p>
+          <p><a id="enlace" href="cuento4.html">Los crímenes de la calle Morgue</a></p>
+          <p><a id="enlace" href="cuento5.html">Von Kempelen y su descubrimiento</a></p>
+        </nav>
+      </section>
+    </div>
+   <div id="contenedor">
+
+    
+<div id="contenido">
+   <div id="imagen">
+    <td><img src="/imagenes/edgar.jpg"></td>
+      </div>
+
+ <div id="descripcion">
+    <h2> Nombre completo:Edgar Allan Poe</h2> 
+
+    <h2>Lugar de nacimiento: Boston, Massachusetts, Estados Unidos 
+    </h2>
+    <h2>Fecha de nacimiento: 19 de enero de 1809</h2>
+    <h2>Murió: 7 de octubre de 1849</h2>
+    <h2>Géneros literarios: Novelas / Poesía / Cuentos </h2>
+
+ </div>
+
+
+ <p>
+
+    Edgar Allan Poe era hijo de Elizabeth Arlold Poe y David Poe, 
+    actores ambulantes de teatro, quienes lo dejaron huérfano a los dos años. 
+    Fue educado por John Allan, un acaudalado hombre de negocios de Richmond, 
+    y de 1815 a 1820 vivió con éste y su esposa en el Reino Unido, donde comenzó su educación. 
+ </p>
+ <p>
+    Los Allan acogieron al niño, pero nunca lo adoptaron formalmente aunque le dieron el nombre de "Edgar Allan Poe". 
+ </p>
+ <p>Después de regresar a los Estados Unidos, Edgar Allan Poe siguió estudiando en centros privados y asistió a
+    la Universidad de Virginia, pero en 1827 su afición al juego y a la bebida le acarreó la expulsión. 
+    Abandonó poco después el puesto de empleado que le había asignado su padre adoptivo, y viajó a Boston, 
+    donde publicó anónimamente su primer libro, Tamerlán y otros poemas. </p>
+    <p>
+        Se enroló luego en el ejército, en el que permaneció dos años. 
+        En 1829 apareció su segundo libro de poemas, Al Aaraf, y obtuvo, por influencia de su padre adoptivo, 
+        un cargo en la Academia Militar de West Point, de la que a los pocos meses fue expulsado por negligencia 
+        en el cumplimiento del deber. 
+    </p>
+    <p>
+        La miseria y el hambre lo acompañaron, por motivos económicos pronto dirigió sus esfuerzos a la prosa, 
+        escribiendo relatos y crítica literaria para algunos periódicos de la época; llegó a adquirir cierta notoriedad por
+         su estilo cáustico y elegante. Debido a su trabajo, vivió en varias ciudades: Baltimore, Filadelfia y Nueva York.
+          En Baltimore, en 1835, contrajo matrimonio con su prima Virginia Clemm, que contaba a la sazón 13 años de edad. 
+          En enero de 1845, publicó un poema que le haría célebre: "El cuervo". Su mujer murió de tuberculosis dos años más tarde. 
+          Aún hundido en la desolación, el autor terminó, en 1849, el poema "Eureka". Con la muerte de Virginia, la vida de Poe se 
+          vino abajo. 
+    </p>
+
+</div>
+
+<div id="pie-de-pagina">
+
+  <section class="disqus">
+      <h2>Comparte tu Opinión</h2>
+      <!--Etiqueta donde se mostrara el formulario Disqus no cambie el ID-->
+      <div id="disqus_thread"></div>
+      <!--
+        Mensaje a mostrarse siempre y cuando 
+        JavaScript este desactivado en tu navegador
+      -->
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.
+      </a></noscript>
+
+    </section>
+<script>
+/**
+*  APRENDA POR QUE ES IMPORTANTE DEFINIR ESTAS VARIABLES: https://disqus.com/admin/universalcode/#configuration-variables*/
+
+var disqus_config = function () {
+this.page.url = chavezcruzdagoberto.bitbucket.io;  // Url de tu sitio web
+this.page.identifier = chavezcruzdagoberto.bitbucket.io; // Url de tu sitio web
+};
+
+(function() { // TENGA CUIDADO AL REALIZAR SUS CAMBIOS
+var $d = document,
+  $s = $d.createElement('script'),
+  $shortName = 'dagoberto'; //Importante: cambialo por tu Shorname
+
+$s.src = '//'+ $shortName +'.disqus.com/embed.js';
+$s.setAttribute('data-timestamp', +new Date());
+($d.head || $d.body).appendChild($s);
+})();
+</script>
+
+</div>
+
+
+
+</div>
+
+
+   </div>
+   
+  </body>
+</html>
