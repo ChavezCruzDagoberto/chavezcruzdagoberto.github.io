@@ -1,6 +1,6 @@
 
 html{
-    background-color: lightslategrey
+    background-color:  #032b18;
 }
 #tema
 {
@@ -31,15 +31,23 @@ color: white;}
 
 body{
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 1050px;
+color: antiquewhite;  
+width: 1050px;
     margin: auto;
    font-size: 18px;
     overflow: scroll;
    
 }
+h1{
+    text-shadow: 5px 5px black;
+    
+    letter-spacing: 20px;
+    
+    }
 #imagen{
 margin-top: 100px;
-
+float: right;
+border-radius: 10%;
 }
 #cursiva{
     font-style: oblique;
@@ -54,16 +62,9 @@ clear: right;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    clear: right; 
    
-  border: 5px solid black;
+ 
 
 }
 h3{
     text-align: center;
-}
-#cabecera{
-    width: 1050px;
-    background-color: black;
-    color: antiquewhite;
-position: fixed;
-
 }
